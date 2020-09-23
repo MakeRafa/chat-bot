@@ -9,8 +9,14 @@ def get_day_bot_response(user_response):
 
 #add some bot responses to this list
 #bot_response_happy = ["omg! great!", "Keep smiling!", "I love to see you happy!"]
-    bot_response_Monday = ["SPD class with the ", "Sleeping in "]
+    bot_response_Monday = ["SPD class while barely awake", "Napping or gaming it"]
     bot_response_Tuesday = ["CS class and lunch ", "Web class till 6 then dinner"]
+    bot_response_Wednesday = ["SPD class ", "Doing HW all day"]
+    bot_response_Thursday = ["CS class and lunch ", "Web class till 6 then dinner"]
+    bot_response_Friday = ["Sleeping in because no A.M. class ", "EC while eating dinner"]
+    bot_response_Saturday = ["Saturdays are for the boys"]
+    bot_response_Sunday = ["Waking up after 11am", "Doing all the HW that is due "]
+
 
     if user_response == "Monday":
         return choice(bot_response_Monday)
@@ -34,7 +40,7 @@ def get_day_bot_response(user_response):
         return choice(bot_response_Sunday)
 
     else:
-        return "I hope your day gets better"
+        return "My schedule is elite"
 
 
 
